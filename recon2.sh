@@ -1,3 +1,4 @@
+#coffinsp  methodology &priv8-Nuclei templete
 #!/bin/bash
 target=$1
 mkdir $1
