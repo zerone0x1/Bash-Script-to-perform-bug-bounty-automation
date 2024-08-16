@@ -9,4 +9,4 @@ katana -u live.txt -d 5 -ps -pss waybackarchive,commoncrawl,alienvault -kf -jc -
 cat allurls.txt | grep '=' >fuzz.txt
 cat allurls.txt | grep -iE "\.js$" >> alljs.txt
 nuclei -l /home/learn/Desktop/BUG/$1/alljs.txt   -t /root/priv8-Nuclei/js/
-nuclei -l /home/learn/Desktop/BUG/$1/fuzz.txt   -t /root/priv8-Nuclei/
+nuclei -l /home/learn/Desktop/BUG/$1/fuzz.txt   -t /root/priv8-Nuclei/ -dast
